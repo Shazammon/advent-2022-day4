@@ -23,6 +23,7 @@ function findOverlap() {
         const numsCompArray = compArray.map(str => {
                 return Number(str)
             })  
+        console.log(numsCompArray)
             if (numsCompArray[1] <= numsCompArray[3] && numsCompArray[2] >= numsCompArray[4] || numsCompArray[3] <= numsCompArray[1] && numsCompArray[4] >= numsCompArray[2]) {
                 overlaps += 1
                 console.log(overlaps)
