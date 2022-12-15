@@ -37,3 +37,5 @@ function findOverlap() {
 
 console.log(findOverlap())
 
+// is a1 less than or = to b1
+// is a2 
