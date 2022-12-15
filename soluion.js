@@ -26,11 +26,11 @@ function findOverlap() {
         // console.log(numsCompArray)
         // console.log(numsCompArray)
             if (numsCompArray[0] <= numsCompArray[2] && numsCompArray[1] >= numsCompArray[3] || numsCompArray[2] <= numsCompArray[0] && numsCompArray[3] >= numsCompArray[1]) {
-                // console.log('YESSS')
+                
                 overlaps += 1
                 console.log(overlaps)
             }
-        // console.log(compArray)
+        
     }
     return overlaps
 }
