@@ -9,6 +9,14 @@ const stringData = data.split(/\r?\n/)
 console.log(stringData)
 
 // for each array item:
-// compare first number to second number
-// whichever number is smaller, assign it "lowest" value. If values are equal, assign
-// compare the upper value of elf with lowest value to the upper value
+// assign first two numbers to array 1, assign next two numbers to array 2
+// if statement: first number is less than or equal to first of second array AND second number is greater than or equal to second number of second array, then count it
+    // else if the opposite
+
+const number = stringData[0].split('-').join(',').split(',')
+
+
+console.log(number)
+// for (i = 0; i < stringData.length; i++) {
+    
+// }
