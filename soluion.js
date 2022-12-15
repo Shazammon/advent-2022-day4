@@ -13,10 +13,14 @@ console.log(stringData)
 // if statement: first number is less than or equal to first of second array AND second number is greater than or equal to second number of second array, then count it
     // else if the opposite
 
-const number = stringData[0].split('-').join(',').split(',')
+// const number = stringData[0].split('-').join(',').split(',')
 
+function findOverlap() {
+    for (i = 0; i < stringData.length; i++) {
+        const compArray = stringData[i].split('-').join(',').split(',')
+        console.log(compArray)
+    }
+}
 
-console.log(number)
-// for (i = 0; i < stringData.length; i++) {
-    
-// }
+console.log(findOverlap())
+
