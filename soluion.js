@@ -21,12 +21,12 @@ function findOverlap() {
     for (i = 0; i < stringData.length; i++) {
         const compArray = stringData[i].split('-').join(',').split(',')
         const numsCompArray = compArray.map(str => {
-            return Number(str)
-            if (compArray[1] <= compArray[3] && compArray[2] >= compArray[4] || compArray[3] <= compArray[1] && compArray[4] >= compArray[2]) {
+                return Number(str)
+            })  
+            if (numsCompArray[1] <= numsCompArray[3] && numsCompArray[2] >= numsCompArray[4] || numsCompArray[3] <= numsCompArray[1] && numsCompArray[4] >= numsCompArray[2]) {
                 overlaps += 1
                 console.log(overlaps)
             }
-        })
         // console.log(compArray)
     }
     return overlaps
