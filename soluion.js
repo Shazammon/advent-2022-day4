@@ -20,16 +20,16 @@ let overlaps = 0
 function findOverlap() {
     for (i = 0; i < stringData.length; i++) {
         const compArray = stringData[i].split('-').join(',').split(',')
-        // const numsCompArray = compArray.map(str => {
-        //         return Number(str)
-        //     })  
+        const numsCompArray = compArray.map(str => {
+                return Number(str)
+            })  
+        console.log(numsCompArray)
         // console.log(numsCompArray)
-        console.log(compArray)
-            // if (numsCompArray[0] <= numsCompArray[2] && numsCompArray[1] >= numsCompArray[3] || numsCompArray[2] <= numsCompArray[0] && numsCompArray[3] >= numsCompArray[1] || numsCompArray[0] <= numsCompArray[2] && numsCompArray[1] >= numsCompArray[2] || numsCompArray[2] <= numsCompArray[0] && numsCompArray[3] >= numsCompArray[0]) {
+            if (numsCompArray[0] <= numsCompArray[2] && numsCompArray[1] >= numsCompArray[3] || numsCompArray[2] <= numsCompArray[0] && numsCompArray[3] >= numsCompArray[1] || numsCompArray[0] <= numsCompArray[2] && numsCompArray[1] >= numsCompArray[2] || numsCompArray[2] <= numsCompArray[0] && numsCompArray[3] >= numsCompArray[0]) {
                 
-            //     overlaps += 1
-            //     // console.log(overlaps)
-            // }
+                overlaps += 1
+                // console.log(overlaps)
+            }
         
     }
     return overlaps
