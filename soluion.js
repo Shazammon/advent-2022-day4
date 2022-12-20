@@ -15,6 +15,8 @@ const stringData = data.split(/\r?\n/)
 
 // const number = stringData[0].split('-').join(',').split(',')
 
+// this is more pseudo code
+
 
 // wrote some pseudo code
 let overlaps = 0
