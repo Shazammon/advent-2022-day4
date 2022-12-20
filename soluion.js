@@ -15,6 +15,8 @@ const stringData = data.split(/\r?\n/)
 
 // const number = stringData[0].split('-').join(',').split(',')
 
+
+// wrote some pseudo code
 let overlaps = 0
 
 function findOverlap() {
